@@ -1,0 +1,5 @@
+def encontra_uma_raiz(a, b, c):
+    raiz1 = (-b + (((b**2) - (4 * a * c))**0.5)) / (2 * a)
+    raiz2 = (-b - (((b**2) - (4 * a * c))**0.5)) / (2 * a)
+    return raiz1
+    return raiz2
